@@ -1,0 +1,363 @@
+@charset "UTF-8";
+/*Variable color naranja*/
+/*fondos*/
+.carousel-bg {
+  background-image: url(../img/carousel-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 30em; }
+
+.img-divider-img {
+  background-image: url(../img/img-divider-img.jpg);
+  background-size: cover;
+  background-repeat: repeat-y;
+  background-position: center top;
+  height: 30em; }
+
+.img-divider-img2 {
+  background-image: url(../img/img-divider-img.jpg);
+  background-size: cover;
+  background-repeat: repeat-y;
+  background-position: center;
+  height: 10em; }
+
+.bg-blue {
+  background-color: #263362; }
+
+.bg-green {
+  background-color: #14A655; }
+
+.bg-blue-gray, .icon-bg {
+  width: 50%;
+  height: 9em; }
+
+.icon-bg {
+  background-color: #7E7C7C; }
+
+.box-size-what-do {
+  height: 10em;
+  width: 9em; }
+
+.btn-hire {
+  text-transform: uppercase;
+  font-size: 2em;
+  padding: 1% 2%;
+  margin-top: 10%; }
+
+.hover-green:hover {
+  background-color: #17693A;
+  padding-top: 3%; }
+  .hover-green:hover .line-white {
+    border-bottom: 1px solid white; }
+  .hover-green:hover .rotate {
+    transform: rotate(45deg); }
+  .hover-green:hover .img-centro {
+    margin-top: 9%;
+    margin-left: 35%; }
+  .hover-green:hover .naranjoso {
+    background-color: #F38630; }
+  .hover-green:hover .naranja {
+    color: #fa6900; }
+
+/* media queries  */
+@media (max-width: 600px) {
+  .font-4-5 {
+    font-size: 3em !important; }
+
+  .font-2 {
+    font-size: 1.3em !important; }
+
+  /* Responsive imagenes color picker*/
+  .box-color, .blue, .baby-blue, .gray, .baby-orange, .orange, .pink, .deep-purple, .gray-blue, .bb-gray-blue, .yellow, .red, .oro, .crema, .aqua, .sky-blue-intense, .gray-green, .yellow-cream, .soft-brown, .red-brown, .deep-brown, .greene, .sky-blue, .sky-intense, .soft-red, .red-classic {
+    height: 5em !important;
+    width: 100%; }
+
+  /* Responsive inagenes what we do*/
+  .ajuste-img {
+    margin-left: 35% !important; }
+
+  .hover-green:hover {
+    background-color: #17693A;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    margin-bottom: 3%; }
+    .hover-green:hover .line-white {
+      border-bottom: 1px solid white; }
+    .hover-green:hover .rotate {
+      transform: rotate(45deg); }
+    .hover-green:hover .img-centro {
+      margin-top: 9%;
+      margin-left: 30%; }
+    .hover-green:hover .naranjoso {
+      background-color: #F38630; }
+    .hover-green:hover .naranja {
+      color: #fa6900; }
+
+  /* iconos*/
+  .ico-redes-big {
+    color: white;
+    font-size: 6em !important;
+    padding-top: 15%;
+    padding-right: 1%;
+    padding-left: 1%; }
+    .ico-redes-big:hover {
+      color: #39887C; } }
+/*Generales*/
+.uppercase {
+  text-transform: uppercase; }
+
+.text-white {
+  color: white; }
+
+.text-gb {
+  color: #A2B2B6; }
+
+.text-blue {
+  color: #124A58; }
+
+.text-orange {
+  color: #E88D17; }
+
+.text-black {
+  color: black; }
+
+.entre-letras {
+  letter-spacing: .1em; }
+
+.absolute {
+  position: absolute; }
+
+/*Letras*/
+* {
+  font-family: 'Roboto'; }
+
+.font-w-300 {
+  font-weight: 300; }
+
+.font-4-5 {
+  font-size: 4.5em; }
+
+.font-3-5 {
+  font-size: 3.5em; }
+
+.font-2 {
+  font-size: 2em; }
+
+.font-1 {
+  font-size: 1.2em; }
+
+/*margenes y paddings*/
+.p2 {
+  padding-top: 4%;
+  padding-bottom: 1%; }
+
+.pt-4 {
+  padding-top: 4%; }
+
+.pt-5 {
+  padding-top: 5%; }
+
+.pb-5 {
+  padding-bottom: 5%; }
+
+.pb-3 {
+  padding-bottom: 3%; }
+
+.pb-10 {
+  padding-bottom: 10%; }
+
+.pt-10 {
+  padding-top: 10%; }
+
+.ml-33 {
+  margin-left: 33%; }
+
+.mt-5 {
+  top: 5%; }
+
+.m-2-col {
+  margin-right: 16.666666666666664%;
+  margin-left: 16.666666666666664%; }
+
+/*hr*/
+hr {
+  max-width: 30%;
+  border-width: 2px; }
+
+.black {
+  border-color: black; }
+
+.white {
+  border-color: white; }
+
+/*Bootstrap modifications*/
+.navbar-default {
+  background-color: #14A655;
+  border-color: #14A655;
+  height: 6em;
+  padding-top: 1%; }
+  .navbar-default .navbar-nav > li > a {
+    color: white;
+    font-size: 1.2em; }
+    .navbar-default .navbar-nav > li > a:hover {
+      background-color: white;
+      color: #14A655;
+      text-decoration: none; }
+
+/*Extends colores */
+.box-color, .blue, .baby-blue, .gray, .baby-orange, .orange, .pink, .deep-purple, .gray-blue, .bb-gray-blue, .yellow, .red, .oro, .crema, .aqua, .sky-blue-intense, .gray-green, .yellow-cream, .soft-brown, .red-brown, .deep-brown, .greene, .sky-blue, .sky-intense, .soft-red, .red-classic {
+  height: 8em;
+  width: 100%; }
+
+.margenes-box {
+  margin-left: 14%; }
+
+.cero {
+  padding-right: 0% !important;
+  padding-left: 0% !important; }
+
+.blue {
+  background-color: #69d2e7; }
+
+.baby-blue {
+  background-color: #a7dbdb; }
+
+.gray {
+  background-color: #e0e4cc; }
+
+.baby-orange {
+  background-color: #f38630; }
+
+.orange {
+  background-color: #fa6900; }
+
+.pink {
+  background-color: #e94c6f; }
+
+.deep-purple {
+  background-color: #542733; }
+
+.gray-blue {
+  background-color: #5a6a62; }
+
+.bb-gray-blue {
+  background-color: #c6d5cd; }
+
+.yellow {
+  background-color: #fdf200; }
+
+.red {
+  background-color: #db3340; }
+
+.oro {
+  background-color: #e8b71a; }
+
+.crema {
+  background-color: #f7eac8; }
+
+.aqua {
+  background-color: #1fda9a; }
+
+.sky-blue-intense {
+  background-color: #28abe3; }
+
+.gray-green {
+  background-color: #588c73; }
+
+.yellow-cream {
+  background-color: #F2e394; }
+
+.soft-brown {
+  background-color: #f2ae72; }
+
+.red-brown {
+  background-color: #d96459; }
+
+.deep-brown {
+  background-color: #8c4646; }
+
+.greene {
+  background-color: #d0c91f; }
+
+.sky-blue {
+  background-color: #85c4b9; }
+
+.sky-intense {
+  background-color: #008bba; }
+
+.soft-red {
+  background-color: #df514c; }
+
+.red-classic {
+  background-color: #dc403b; }
+
+/*Secci├│n about us*/
+.agency-img3 {
+  width: 100%; }
+
+/*Our awesome team*/
+.team-1 {
+  background-image: url(../img/team/1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover 5em !important;
+  height: 10em; }
+
+.ico-redes {
+  font-size: 1.5em;
+  padding: 2%; }
+
+/*Best Price*/
+.box-padre {
+  border: 1px solid #14A655; }
+  .box-padre:hover {
+    border: 1px solid #fa6900; }
+    .box-padre:hover .bg-orange {
+      background-color: #E88D17;
+      opacity: 0.5; }
+
+.up:hover {
+  margin-top: 5%; }
+
+.btn-orange {
+  background-color: #E88D17;
+  color: white;
+  opacity: 0.5;
+  border: none;
+  padding: 2% 8%;
+  margin-top: 5%;
+  margin-bottom: 5%; }
+
+.bg-white {
+  background-color: white; }
+
+.ico-redes-big {
+  color: white;
+  font-size: 8em;
+  padding-top: 15%;
+  padding-right: 2%;
+  padding-left: 2%; }
+  .ico-redes-big:hover {
+    color: #39887C; }
+
+.orange-envelope {
+  color: #fa6900; }
+
+/*estilo del boton para volver a menu*/
+#back-to-top {
+  position: fixed;
+  z-index: 1000;
+  bottom: 20px;
+  right: 20px;
+  display: none; }
+
+/*Animaciones WOW*/
+.fadeInLeft, .fadeInRight, .bounceInLeft, .bounceInUp, .bounceInDown, .bounceInRight {
+  visibility: visible;
+  animation-duration: 2000ms;
+  -webkit-animation-delay: 0.1s;
+  -moz-animation-delay: 0.1s;
+  animation-delay: 0.1s; }
+
+/*# sourceMappingURL=style.css.map */
